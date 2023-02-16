@@ -212,14 +212,6 @@ function HomePage() {
               >
                 <BiUpArrowAlt />
               </div>
-              {/* <div className="logo-consultant-home">
-                <Image
-                  src="/images/consultant.png"
-                  alt="logo"
-                  width={641}
-                  height={300}
-                />
-              </div> */}
 
               <div
                 className={
