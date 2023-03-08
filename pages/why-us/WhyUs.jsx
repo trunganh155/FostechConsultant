@@ -25,7 +25,8 @@ export default function WhyUs() {
             <div className="col-10 ps-3 ps-sm-4">
               <p className={styles.whyus_title}>Bespoke Solutions</p>
               <p className={styles.whyus_content}>
-                Support your header with a short one liner.
+                Making and selling products, or providing services, specially
+                for one particular organization.
               </p>
             </div>
           </div>
@@ -43,7 +44,8 @@ export default function WhyUs() {
             <div className="col-10 ps-3 ps-sm-4">
               <p className={styles.whyus_title}>Reliable Customer Support</p>
               <p className={styles.whyus_content}>
-                Support your header with a short one liner.
+                Respond quickly, be friendly, know our product/ Service, listen
+                to our customers and keep our promises.
               </p>
             </div>
           </div>
@@ -61,7 +63,8 @@ export default function WhyUs() {
             <div className="col-10 ps-3 ps-sm-4">
               <p className={styles.whyus_title}>Secure Systems</p>
               <p className={styles.whyus_content}>
-                Support your header with a short one liner.
+                Integration of security solutions, integration of IT
+                infrastructures, and security soft solutions.
               </p>
             </div>
           </div>
@@ -71,7 +74,9 @@ export default function WhyUs() {
       <div className="col-12 col-xxl-8 mx-auto d-flex flex-wrap justify-content-around mt-3">
         <div
           className={
-            styles.box + " " + "col-5 col-sm-4 col-lg-3 px-0 px-sm-3 px-lg-0 d-flex flex-column mb-4"
+            styles.box +
+            " " +
+            "col-5 col-sm-4 col-lg-3 px-0 px-sm-3 px-lg-0 d-flex flex-column mb-4"
           }
         >
           <div className={styles.box_top}>
@@ -85,7 +90,9 @@ export default function WhyUs() {
 
         <div
           className={
-            styles.box + " " + "col-5 col-sm-4 col-lg-3 px-0 px-sm-3 px-lg-0 d-flex flex-column mb-4"
+            styles.box +
+            " " +
+            "col-5 col-sm-4 col-lg-3 px-0 px-sm-3 px-lg-0 d-flex flex-column mb-4"
           }
         >
           <div className={styles.box_top}>
@@ -99,7 +106,9 @@ export default function WhyUs() {
 
         <div
           className={
-            styles.box + " " + "col-5 col-sm-4 col-lg-3 px-0 px-sm-3 px-lg-0 d-flex flex-column mb-4"
+            styles.box +
+            " " +
+            "col-5 col-sm-4 col-lg-3 px-0 px-sm-3 px-lg-0 d-flex flex-column mb-4"
           }
         >
           <div className={styles.box_top}>
