@@ -19,7 +19,7 @@ module.exports = async (phase, { defaultConfig }) => {
       // EMAIL_JS_TEMPLATE: "template_05wvxwf",
 
       //yandex
-      EMAIL_JS_SERVICE: "service_1k5byvk",
+      EMAIL_JS_SERVICE: "service_k5mi2ag",
       EMAIL_JS_USER: "qrhSD4tg9Ih-v4UjY",
       EMAIL_JS_TEMPLATE: "template_05wvxwf",
 
