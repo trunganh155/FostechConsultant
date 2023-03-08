@@ -44,7 +44,7 @@ export default function WhyUs() {
             <div className="col-10 ps-3 ps-sm-4">
               <p className={styles.whyus_title}>Reliable Customer Support</p>
               <p className={styles.whyus_content}>
-                Respond quickly, be friendly, know our product/ Service, listen
+                Respond quickly, be friendly, know our product/ service, listen
                 to our customers and keep our promises.
               </p>
             </div>
