@@ -11,8 +11,8 @@ export default function WhyUs() {
           <p className="title">Why Us</p>
         </div>
 
-        <div className="col-12 col-sm-8 d-flex flex-column">
-          <div className="d-flex flex-row my-1 my-sm-3 mt-3 mt-sm-4">
+        <div className="col-12 col-sm-8 d-flex flex-column mt-1 mt-sm-4 mb-1 mb-sm-4">
+          <div className="d-flex flex-row">
             <div>
               <Image
                 src="/images/icon/jigsaw.png"
@@ -31,7 +31,7 @@ export default function WhyUs() {
             </div>
           </div>
 
-          <div className="d-flex flex-row my-1 my-sm-3">
+          <div className="d-flex flex-row">
             <div>
               <Image
                 src="/images/icon/customer-service.png"
@@ -50,7 +50,7 @@ export default function WhyUs() {
             </div>
           </div>
 
-          <div className="d-flex flex-row my-1 my-sm-3 mb-3 mb-sm-4">
+          <div className="d-flex flex-row">
             <div>
               <Image
                 src="/images/icon/cyber-security.png"
@@ -71,7 +71,7 @@ export default function WhyUs() {
         </div>
       </div>
 
-      <div className="col-12 col-xxl-8 mx-auto d-flex flex-wrap justify-content-around mt-3">
+      <div className="col-12 col-xxl-8 mx-auto d-flex flex-wrap justify-content-around mt-2">
         <div
           className={
             styles.box +
