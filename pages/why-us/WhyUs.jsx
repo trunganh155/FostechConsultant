@@ -13,7 +13,7 @@ export default function WhyUs() {
 
         <div className="col-12 col-sm-8 d-flex flex-column mt-1 mt-sm-4 mb-1 mb-sm-4">
           <div className="d-flex flex-row">
-            <div>
+            <div className="mt-2">
               <Image
                 src="/images/icon/jigsaw.png"
                 alt="icon"
@@ -32,7 +32,7 @@ export default function WhyUs() {
           </div>
 
           <div className="d-flex flex-row">
-            <div>
+            <div className="mt-2">
               <Image
                 src="/images/icon/customer-service.png"
                 alt="icon"
@@ -51,7 +51,7 @@ export default function WhyUs() {
           </div>
 
           <div className="d-flex flex-row">
-            <div>
+            <div className="mt-2">
               <Image
                 src="/images/icon/cyber-security.png"
                 alt="icon"
