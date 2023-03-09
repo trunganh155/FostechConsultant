@@ -1,8 +1,12 @@
 import Link from "next/link";
+import { useRouter } from "next/router";
 import React from "react";
 import styles from "./footerColor.module.scss";
 
 function FooterColor() {
+  const router = useRouter();
+  const asPath = router.pathname;
+
   return (
     <div className={styles.footerColor}>
       {/* <div className="col">
@@ -20,13 +24,15 @@ function FooterColor() {
           <h6 className={styles.footerColor_title}>Company</h6>
           <ul>
             <Link href="/">
-              <li>Home</li>
+              <li className={asPath === "/" ? "active" : ""}>Home</li>
             </Link>
             <Link href="/product/custom">
-              <li>Product</li>
+              <li className={asPath === "/product/custom" ? "active" : ""}>
+                Product
+              </li>
             </Link>
             <Link href="/why-us">
-              <li>Why Us</li>
+              <li className={asPath === "/why-us" ? "active" : ""}>Why Us</li>
             </Link>
           </ul>
         </div>
